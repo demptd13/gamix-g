@@ -247,7 +247,7 @@ body {
 
 /* HERO BLOCK */
 .hero {
-  background: url("../images/hero/gamer.svg") top 8% right 35%/20% no-repeat;
+  background: url("/images/hero/gamer.svg") top 8% right 35%/20% no-repeat;
   position: relative;
   padding-bottom: 80px;
 }
