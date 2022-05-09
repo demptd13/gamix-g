@@ -239,11 +239,14 @@ body {
 
 .mobile-menu__icon {
   display: none;
+  position: absolute;
+  top: 0;
+  right: 15px;
   font-size: 50px;
   color: #2e2594;
   font-weight: 700;
 }
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
   .mobile-menu__icon {
     display: block;
   }
@@ -252,7 +255,7 @@ body {
 .icon_active {
   display: none;
 }
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
   .icon_active {
     display: block;
     z-index: 2;
