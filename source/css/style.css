@@ -189,7 +189,7 @@ body {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  padding: 10px;
+  padding: 10px 10px 40px 10px;
   background-color: rgba(236, 112, 173, 0.9);
   border-radius: 20px;
 }
