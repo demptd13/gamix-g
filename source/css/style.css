@@ -246,7 +246,6 @@ body {
 
 .icon_active {
   display: block;
-  z-index: 3;
 }
 
 /* HERO BLOCK */
