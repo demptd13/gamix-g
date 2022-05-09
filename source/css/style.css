@@ -247,33 +247,33 @@ body {
 
 /* HERO BLOCK */
 .hero {
-  background: url("/images/hero/gamer.svg") top 8% right 35%/20% no-repeat;
+  background: url("../../images/hero/gamer.svg") top 8% right 35%/20% no-repeat;
   position: relative;
   padding-bottom: 80px;
 }
 @media (max-width: 2560px) {
   .hero {
-    background: url("../images/hero/gamer.svg") top 8% right 30%/25% no-repeat;
+    background: url("../../images/hero/gamer.svg") top 8% right 30%/25% no-repeat;
   }
 }
 @media (max-width: 2000px) {
   .hero {
-    background: url("../images/hero/gamer.svg") top 8% right 17%/30% no-repeat;
+    background: url("../../images/hero/gamer.svg") top 8% right 17%/30% no-repeat;
   }
 }
 @media (max-width: 1750px) {
   .hero {
-    background: url("../images/hero/gamer.svg") top 8% right 10%/39% no-repeat;
+    background: url("../../images/hero/gamer.svg") top 8% right 10%/39% no-repeat;
   }
 }
 @media (max-width: 1440px) {
   .hero {
-    background: url("../images/hero/gamer.svg") top 8% right 5%/45% no-repeat;
+    background: url("../../images/hero/gamer.svg") top 8% right 5%/45% no-repeat;
   }
 }
 @media (max-width: 1024px) {
   .hero {
-    background: url("../images/hero/gamer.svg") top 8% right -10%/55% no-repeat;
+    background: url("../../images/hero/gamer.svg") top 8% right -10%/55% no-repeat;
     margin-bottom: 30px;
     padding-bottom: 20px;
   }
