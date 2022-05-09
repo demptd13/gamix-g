@@ -113,7 +113,7 @@ body {
 @media (max-width: 1160px) {
   .header__body {
     margin: 5px auto 0 auto;
-    padding: 0 20px;
+    padding: 0 5px;
   }
 }
 
@@ -215,7 +215,7 @@ body {
 .mobile-menu {
   position: absolute;
   right: -200%;
-  top: 75px;
+  top: 70px;
   width: 100%;
   display: none;
   -webkit-transition: 0.3s all;
