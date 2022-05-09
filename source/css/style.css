@@ -255,6 +255,7 @@ body {
 @media (max-width: 1024px) {
   .icon_active {
     display: block;
+    z-index: 2;
   }
 }
 
