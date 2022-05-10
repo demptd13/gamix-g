@@ -73,7 +73,10 @@ h1, h2, h3, h4, h5, h6 {
 /* FONTS */
 .block__title span, .hero__title span, .icon_active, .header__logo span {
   color: #F73B6C;
+  background: #F73B6C;
   background: linear-gradient(45deg, #F73B6C 33%, #2E2594 66%);
+  background:-webkit-linear-gradient(45deg, #F73B6C 33%, #2E2594 66%);
+  background:-moz-linear-gradient(45deg, #F73B6C 33%, #2E2594 66%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-appearance: none; 
@@ -163,6 +166,7 @@ body {
   cursor: pointer;
   -webkit-transition: 0.3s all;
   transition: 0.3s all;
+  border: 1px solid rgba(0,0,0,0.3);
 }
 .header__link:hover {
   color: #ffffff;
