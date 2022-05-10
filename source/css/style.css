@@ -166,9 +166,8 @@ body {
   cursor: pointer;
   -webkit-transition: 0.3s all;
   transition: 0.3s all;
-  padding: 12px 34px;
-  border: 1px solid rgba(0,0,0,0.1);
 }
+
 .header__link:hover {
   color: #ffffff;
   border: 1px solid #b53071;
