@@ -221,25 +221,20 @@ body {
   color: #fff;
   border-bottom: 1px solid #fff;
 }
-
 .mobile-menu {
   position: absolute;
-  right: -200%;
+  right: -20%;
   top: 75px;
   width: 100%;
   display: none;
-  -webkit-transition: 0.3s all;
-  transition: 0.3s all;
-}
-@media (max-width: 1024px) {
-  .mobile-menu {
-    display: block;
-    z-index: 1;
-  }
+  -webkit-transition: 0.3s all ease;
+  transition: 0.3s all ease;
 }
 
 .mobile-menu_show {
   right: 0;
+  display: block;
+  z-index: 1;
 }
 
 .mobile-menu__icon {
@@ -251,6 +246,7 @@ body {
   color: #2e2594;
   font-weight: 700;
 }
+
 @media (max-width: 1023px) {
   .mobile-menu__icon {
     display: block;
