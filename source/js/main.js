@@ -1,11 +1,11 @@
-// Mobile Menu
-const btn = document.querySelector('.mobile-menu__icon');
-let mobile = document.querySelector('.mobile-menu');
-let icon = document.querySelector('.mobile-menu__icon');
-btn.onclick = () => {
-    mobile.classList.toggle('mobile-menu_show');
-    icon.classList.toggle('icon_active');
-}
+// MOBIL MENU
+$(document).ready(function() {
+    $('.mobile-menu__icon').click(function(event) {
+        $('.mobile-menu').toggleClass('mobile-menu_show');
+        $('.mobile-menu__icon').toggleClass('icon_active');
+    });
+});
+
 
 // Slider
 $('.slider').slick({
